@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+    <style>
+      /* ------------------------ Start of footer ------------------------ */
+      footer{
+        text-align: center;
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        border: #fff ridge 10px;
+      }
+      /* ------------------------ End of footer ------------------------ */
+      /* ------------------------ Start of img ------------------------ */
+      img{
+        width:50px;
+      }
+      /* ------------------------ End of img ------------------------ */
+      /* ------------------------ start of header ------------------------ */
+      header{
+        text-align: center;
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+      }
+       /* ------------------------ End of header ------------------------ */
+      /* ------------------------ start of nav bar ------------------------ */
+        nav{
+          display: flex;
+          justify-content: center;
+          background-color: #c75a5a;
+          height: 45px;
+       }
+       nav a{
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        flex-grow: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+       nav a:hover{
+        background-color: white;
+        color: gold;
+        transition: color 0.7s;
+        transition: background-color 0.7s;
+       }
+       @media(max-width:400px){
+        nav{
+          flex-direction: column;
+          height: 111px;
+          background-color: lime;
+        }
+       }
+       @media(max-width:350px){
+        nav{
+          flex-direction: column;
+          height: 111px;
+          background-color: rgb(38, 0, 255);
+        }
+       }
+       /* ------------------------ End of nav bar ------------------------ */
+       /* ------------------------ Start of main ------------------------ */
+       main{
+        padding: 50px;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap:10px;
+        background-color: brown;
+        color: #fff;
+       }
+       .no{
+          width: 200px;
+         }
+       /* ------------------------ End of main ------------------------ */
+       /* ------------------------ Start of body ------------------------ */
+       body{
+        background-color: brown;
+       }
+       /* ------------------------ end of body ------------------------ */
+      </style>  
+</head>
+<body>
+  <header>
+    <h1>NOON</h1>
+    <nav>
+      <a href="index.html"><img src="./download.png" alt=""></a>
+        <a href="what is noon.html">what is NOON</a>
+        <a href="the link of noon.html">the link of NOON</a>
+      </nav>    
+</header>
+<main class="font-effect-fire">
+<img src="download.png" alt="" class="no">
+<a href="https://www.noon.com/egypt-en/?utm_source=C1000088L&utm_medium=cpc&utm_campaign=C1000151355N_eg_en_web_searchxxexactandphrasexxbrandpurexx08082022_noon_web_c1000088l_acquisition_sembranded_&gad_source=1&gclid=Cj0KCQiAoKeuBhCoARIsAB4WxtfWJYYqg7PWGqfdLTPm5qUUnOmXzYV0R2_nCI_6kXgZ6lZdORg4xgwaAqnBEALw_wcB">the link</a>
+</main>
+<footer>
+  <p>&copy; 2023 My Website</p>
+</footer> 
+</body>
+</html>

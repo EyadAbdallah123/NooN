@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+    <style>
+      /* ------------------------ Start of footer ------------------------ */
+      footer{
+        text-align: center;
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        border: #fff ridge 10px;
+      }
+      /* ------------------------ End of footer ------------------------ */
+      /* ------------------------ Start of img ------------------------ */
+      img{
+        width:50px;
+      }
+      /* ------------------------ End of img ------------------------ */
+      /* ------------------------ start of header ------------------------ */
+      header{
+        text-align: center;
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+      }
+       /* ------------------------ End of header ------------------------ */
+      /* ------------------------ start of nav bar ------------------------ */
+        nav{
+          display: flex;
+          justify-content: center;
+          background-color: #c75a5a;
+          height: 45px;
+       }
+       nav a{
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        flex-grow: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+       nav a:hover{
+        background-color: white;
+        color: gold;
+        transition: color 0.7s;
+        transition: background-color 0.7s;
+       }
+       @media(max-width:400px){
+        nav{
+          flex-direction: column;
+          height: 111px;
+          background-color: lime;
+        }
+       }
+       @media(max-width:350px){
+        nav{
+          flex-direction: column;
+          height: 111px;
+          background-color: rgb(38, 0, 255);
+        }
+       }
+       /* ------------------------ End of nav bar ------------------------ */
+       /* ------------------------ Start of main ------------------------ */
+       main{
+        padding: 50px;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap:10px;
+        background-color: brown;
+        color: #fff;
+       }
+       .m{
+        width: 150px;
+       }
+       .g{
+        width: 150px;
+       }
+       .t{
+        width: 150px;
+       }
+       /* ------------------------ End of main ------------------------ */
+       /* ------------------------ Start of body ------------------------ */
+       body{
+        background-color: brown;
+       }
+       /* ------------------------ end of body ------------------------ */
+    </style>
+</head>
+<body>
+    <header>
+        <h1>NOON</h1>
+        <nav class="font-effect-neon">
+          <a href="index.html"><img src="./download.png" alt=""></a>
+            <a href="what is noon.html">what is NOON</a>
+            <a href="the link of noon.html">the link of NOON</a>
+          </nav>    
+    </header>
+    <main class="font-effect-fire">
+      
+      <h1>mobile</h1>
+      <a href="mobile.html">Mobiles</a>
+      <p>iphone 15 pro max, iphone 15, iphone 14 pro max, iphone 14, iphone 13 pro max, iphone 13, iphone 12 pro max, .....</p>
+      <img src="./download.jpg" alt="" class="m">
+      <h1>gaming</h1>
+      <a href="gaming.html">Gaming</a>
+      <p>ps5, ps4, ps3, ps2, ps1, , x box ...........</p>
+      <img src="./download (1).jpg" alt="" class="g">
+      <h1>toys</h1>
+      <a href="toys.html">Toys</a>
+      <p>robik cube 2*2, 3*3,4*4, 5*5, 6*6, 7*7, 8*8, 9*9, 10*10, ........</p>
+      <img src="./download (2).jpg" alt="" class="t">
+    </main>
+    <footer>
+        <p>&copy; 2023 My Website</p>
+      </footer> 
+</body>
+</html>
